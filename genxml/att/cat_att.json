@@ -1,0 +1,35 @@
+{
+  "Channel" :
+  {
+    "Type" : "shape",
+    "Lumi" : "1"
+  },
+  "Data" :
+  {
+    "FileType"    : "histogram",
+    "Observable"  : "obs_x_channel",
+    "InjectGhost" : "1"
+  },
+  "Template" :
+  {
+    "MultiplyLumi"  : "0"
+  },
+  "QCD" :
+  {
+    "Name"          : "QCD",
+    "MultiplyLumi"  : "0",
+    "ImportSyst"    : ":self:"
+  },
+  "YS" :
+  {
+    "Constr"        : "gaus",
+    "CentralValue"  : "1",
+    "WhereTo"       : "yield"
+  },
+  "TS" :
+  {
+    "Constr"        : "asym",
+    "CentralValue"  : "1",
+    "WhereTo"       : "yield"
+  }
+}

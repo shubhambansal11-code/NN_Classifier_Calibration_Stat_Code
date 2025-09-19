@@ -1,0 +1,46 @@
+{
+  "templates": [
+    {
+      "gammas": {}, 
+      "spurious": false, 
+      "syst": {}, 
+      "yield": 17688.77986907959, 
+      "sample": "Zboson", 
+      "outpath": "../workspaces/Vbbfull/Xbb60_139_20_Zboson_combined_Vbbfull_model.root", 
+      "fixed": false
+    }, 
+    {
+      "gammas": {}, 
+      "spurious": false, 
+      "syst": {}, 
+      "yield": 7175.186454772949, 
+      "sample": "Wboson", 
+      "outpath": "../workspaces/Vbbfull/Xbb60_139_20_Wboson_combined_Vbbfull_model.root", 
+      "fixed": false
+    }, 
+    {
+      "gammas": {}, 
+      "spurious": false, 
+      "syst": {}, 
+      "yield": 13309.943664550781, 
+      "sample": "ttbar", 
+      "outpath": "../workspaces/Vbbfull/Xbb60_139_20_ttbar_combined_Vbbfull_model.root", 
+      "fixed": false
+    }, 
+    {
+      "gammas": {}, 
+      "spurious": false, 
+      "syst": {}, 
+      "yield": 817153.2890625, 
+      "sample": "dijets", 
+      "outpath": "../workspaces/Vbbfull/Xbb60_139_20_dijets_combined_Vbbfull_model.root", 
+      "fixed": false
+    }
+  ], 
+  "data": {
+    "dataname": [
+      "data"
+    ], 
+    "outpath": "Input/data/histo/Vbbfull_Xbb60_139_20_data.root"
+  }
+}

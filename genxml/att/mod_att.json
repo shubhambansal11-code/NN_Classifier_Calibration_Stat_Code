@@ -1,0 +1,18 @@
+{
+  "Model" :
+  {
+    "Type"            : "External",
+    "WSName"          : "combined",
+    "ModelName"       : "_model",
+    "ObservableName"  : "obs_x_"
+  },
+  "Item" :
+  {
+    "Name"  : "unit[1]"
+  },
+  "Rename" :
+  {
+    "OldName" : "Lumi",
+    "NewName" : "unit"
+  }
+}

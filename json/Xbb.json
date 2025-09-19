@@ -1,0 +1,50 @@
+{
+    "data" : 
+      {
+        "path" : "./XbbDL1rTagger_1611/data_Xbb60_1GeV.root",
+        "hist_input" : 1, 
+        "m_min" : "50.",
+        "m_max" : "240.",
+        "m_fitmin" : "50.",
+      "m_fitmax" : "240."
+      },
+    "templates" : [
+      {
+        "sample" : "Zboson",
+        "path" : "./XbbDL1rTagger_1611/Z_Xbb60_1GeV.root",
+        "fit" : true,
+        "injection" : 0
+      },       
+      {
+        "sample" : "ttbar1",
+        "path" : "./XbbDL1rTagger_1611/tt1_Xbb60_1GeV.root",
+        "fit" : true,    
+        "injection" : 0
+      },
+      {
+        "sample" : "ttbar2",
+        "path" : "./XbbDL1rTagger_1611/tt2_Xbb60_1GeV.root",
+        "fit" : true,    
+        "injection" : 0
+      },
+      {
+        "sample" : "ttbar2W",
+        "path" : "./XbbDL1rTagger_1611/tt2W_Xbb60_1GeV.root",
+        "fit" : true,    
+        "injection" : 0
+      },
+      {
+        "sample" : "ttbar2O",
+        "path" : "./XbbDL1rTagger_1611/tt2O_Xbb60_1GeV.root",
+        "fit" : true,    
+        "injection" : 0
+      },
+      {
+        "sample" : "dijets",
+        "path" : "./XbbDL1rTagger_1611/QCD_Xbb60_1GeV.root",
+        "fit" : true,
+        "injection" : 0
+      }
+    ],
+    "flags" : {"nominal":true,"injection_test":false, "norm_all":false, "conf": false}  
+  }

@@ -1,0 +1,16 @@
+{
+  "Combination" :
+    {
+      "WorkspaceName"   : "combWS",
+      "ModelConfigName" : "ModelConfig",
+      "DataName"        : "combData"
+    },
+  "Asimov" :
+    {
+      "Setup"         : "",
+      "Action"        : "savesnapshot",
+      "SnapshotAll"   : "ucmles_mu",
+      "SnapshotNuis"  : "conditionalNuis_muhat",
+      "SnapshotGlob"  : "conditionalGlob_muhat"
+    }
+}
